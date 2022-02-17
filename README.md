@@ -1,1 +1,1 @@
-# web-library-template
+# monorepo-template

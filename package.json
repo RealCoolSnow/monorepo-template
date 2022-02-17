@@ -1,0 +1,24 @@
+{
+  "name": "web-library-template",
+  "version": "1.0.0",
+  "description": "A template for Web library develop (React、Vue)",
+  "author": "CoolSnow",
+  "license": "MIT",
+  "keywords": [
+    "React",
+    "Vue",
+    "Framework"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealCoolSnow/web-library-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RealCoolSnow/web-library-template/issues"
+  },
+  "homepage": "https://github.com/RealCoolSnow/web-library-template#readme"
+}

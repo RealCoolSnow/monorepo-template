@@ -21,5 +21,29 @@
   "bugs": {
     "url": "https://github.com/RealCoolSnow/monorepo-template/issues"
   },
-  "homepage": "https://github.com/RealCoolSnow/monorepo-template#readme"
+  "homepage": "https://github.com/RealCoolSnow/monorepo-template#readme",
+  "devDependencies": {
+    "turbo": "^1.1.3"
+  },
+  "turbo": {
+    "npmClient": "pnpm",
+    "pipeline": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "outputs": [
+          "dist/**"
+        ]
+      },
+      "deploy": {
+        "dependsOn": [
+          "build"
+        ]
+      },
+      "dev": {
+        "cache": false
+      }
+    }
+  }
 }

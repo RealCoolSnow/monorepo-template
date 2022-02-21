@@ -1,2 +1,9 @@
 packages:
-  - packages/*
+  - 'apps/**'
+  - 'examples/**'
+  - 'services/**'
+  - 'features/**'
+  - 'packages/**'
+# exclude packages that are inside test directories
+  - '!**/test/**'
+  - '!**/__tests__/**'

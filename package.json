@@ -20,8 +20,7 @@
   "author": "CoolSnow",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier -c --write '**/*'",
-    "pretty-quick": "pretty-quick",
+    "format": "pretty-quick",
     "sort": "npx sort-package-json \"package.json\" \"packages/*/package.json\" \"apps/*/package.json\" \"examples/*/package.json\" \"services/*/package.json\" \"features/*/package.json\"",
     "test": "echo \"no tests\""
   },
